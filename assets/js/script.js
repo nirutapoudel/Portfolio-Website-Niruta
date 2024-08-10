@@ -70,7 +70,7 @@ $(document).ready(function () {
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Niruta Poudel";
-    $("#favicon").attr("href", "assets/images/niru_profile.jpg");
+    $("#favicon").attr("href", "assets/images/apple-icon-180x180.png");
   } else {
     document.title = "Come Back To Portfolio";
     $("#favicon").attr("href", "assets/images/favhand.png");
