@@ -69,7 +69,7 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Jigar Sable";
+    document.title = "Portfolio | Niruta Poudel";
     $("#favicon").attr("href", "assets/images/niru_profile.jpg");
   } else {
     document.title = "Come Back To Portfolio";
